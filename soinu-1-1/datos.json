@@ -1,0 +1,30 @@
+{
+  "escenarios": [
+    {"nombre": "Bahía", "capacidad": 8000, "tipo": "principal"},
+    {"nombre": "Muelle", "capacidad": 3000, "tipo": "electrónica"},
+    {"nombre": "Faro", "capacidad": 1200, "tipo": "acústico"}
+  ],
+  "artistas": [
+    {"nombre": "Lasai", "genero": "indie", "pais": "España"},
+    {"nombre": "Kortatu Berri", "genero": "ska", "pais": "España"},
+    {"nombre": "Nordika", "genero": "electrónica", "pais": "Noruega"},
+    {"nombre": "Bide Berri", "genero": "folk", "pais": "España"},
+    {"nombre": "Sunset Loop", "genero": "electrónica", "pais": "Portugal"},
+    {"nombre": "Errimuxu", "genero": "rap", "pais": "España"},
+    {"nombre": "Mar de Fondo", "genero": "acústico", "pais": "España"},
+    {"nombre": "Vertigo Norte", "genero": "rock", "pais": "España"}
+  ],
+  "actuaciones": [
+    {"artista": "Bide Berri", "escenario": "Faro", "dia": "viernes", "hora_inicio": "18:00", "hora_fin": "18:45"},
+    {"artista": "Kortatu Berri", "escenario": "Bahía", "dia": "viernes", "hora_inicio": "19:30", "hora_fin": "20:30"},
+    {"artista": "Vertigo Norte", "escenario": "Bahía", "dia": "viernes", "hora_inicio": "21:00", "hora_fin": "22:00"},
+    {"artista": "Sunset Loop", "escenario": "Muelle", "dia": "viernes", "hora_inicio": "23:00", "hora_fin": "00:30"},
+    {"artista": "Mar de Fondo", "escenario": "Faro", "dia": "sábado", "hora_inicio": "18:30", "hora_fin": "19:15"},
+    {"artista": "Errimuxu", "escenario": "Bahía", "dia": "sábado", "hora_inicio": "20:00", "hora_fin": "20:50"},
+    {"artista": "Lasai", "escenario": "Bahía", "dia": "sábado", "hora_inicio": "21:30", "hora_fin": "22:30"},
+    {"artista": "Nordika", "escenario": "Muelle", "dia": "sábado", "hora_inicio": "23:30", "hora_fin": "01:00"},
+    {"artista": "Mar de Fondo", "escenario": "Faro", "dia": "domingo", "hora_inicio": "17:30", "hora_fin": "18:15"},
+    {"artista": "Bide Berri", "escenario": "Faro", "dia": "domingo", "hora_inicio": "19:00", "hora_fin": "19:45"},
+    {"artista": "Nordika", "escenario": "Muelle", "dia": "domingo", "hora_inicio": "20:30", "hora_fin": "21:30"}
+  ]
+}
